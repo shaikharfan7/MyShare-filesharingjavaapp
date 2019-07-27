@@ -7,7 +7,7 @@ import java.util.*;
 import myshareabout.*;                                            //Myshare build v1.0 (beta) DEVELOPED BY ARFAN SHAIKH (shaikharfan7@gmail.com)
 public class myshare 
 {
-	   public static String spth;                                   //global variable for source path(server)
+	 public static String spth;                                   //global variable for source path(server)
      public static String dpth;                                   //global variable for destination path(client)
      public static String addr;                                   //global variable for ip address
      public static void main(String args[])
@@ -17,16 +17,16 @@ public class myshare
          abt ab = new abt();				                              //object declaration for class abt in package myshareabout
          //Frame creation
          JFrame frame = new JFrame("Myshare v1.0 beta(File transfer) - Project By Arfan Shaikh (shaikharfan7@gmail.com)");        
-	       frame.setSize(1359,410);                                               //Frame Size declaration
-	       //panel
-	       JPanel a1 = new JPanel();                                              //panel declaration
-	       JLabel j1 = new JLabel("                                     Select file to send:");                //label 1
+	     frame.setSize(1359,410);                                               //Frame Size declaration
+	     //panel
+	     JPanel a1 = new JPanel();                                              //panel declaration
+	     JLabel j1 = new JLabel("                                     Select file to send:");                //label 1
          JLabel j2 = new JLabel("                                                    Select to receive  :"); //label 2
-	       JTextField t = new JTextField();                                      //textfield t
+	     JTextField t = new JTextField();                                      //textfield t
          JTextField tr= new JTextField();								                       //textfield tr
-	       JButton bs = new JButton("--Source--");                               //button bs (source)
+	     JButton bs = new JButton("--Source--");                               //button bs (source)
          JButton br = new JButton("Destination");                              //button br (destination)
-	       JButton adrss = new JButton("Set");                                   //button adrs(to set ip)
+	     JButton adrss = new JButton("Set");                                   //button adrs(to set ip)
          JFileChooser fc = new JFileChooser();                                 //file chooser declaration
          JTextField adrs = new JTextField();                                   //adrs textfield
          JLabel tp = new JLabel("Status :");                                   //label 3
@@ -46,10 +46,10 @@ public class myshare
          m0.add(m10);                                                          //adding menu items to options
          m1.add(m12);
          m1.add(m11);
-		     frame.getContentPane().add(BorderLayout.NORTH,mb);                    //setting panel(menubar) mb to north of frame
+		 frame.getContentPane().add(BorderLayout.NORTH,mb);                    //setting panel(menubar) mb to north of frame
          a1.add(j1);                                                           //adding contents in flow to panel a1
-	       a1.add(t);
-	       a1.add(bs); 
+	     a1.add(t);
+	     a1.add(bs); 
          a1.add(tp);																																																																																																																																			//myshare v1.0 beta developed dby arfan shaikh 15ce13
          a1.add(tq);
          a1.add(j2);  
@@ -61,7 +61,7 @@ public class myshare
          tr.setText("Click to select file");								                  //default text in field tr
          adrs.setText("Enter ip address"); 
          JPanel panel = new JPanel();                                         //new panel
-	       JLabel label = new JLabel("Select :");                               //label 5
+	     JLabel label = new JLabel("Select :");                               //label 5
          JButton snd = new JButton("send");                                   //send button
          JButton rcv = new JButton("receive");                                //receive button
          System.out.println("Myshare v1.0 beta - Project By Arfan Shaikh (shaikharfan7@gmail.com)");
