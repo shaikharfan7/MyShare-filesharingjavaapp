@@ -46,10 +46,10 @@ public class myshare
          m0.add(m10);                                                          //adding menu items to options
          m1.add(m12);
          m1.add(m11);
- 	 frame.getContentPane().add(BorderLayout.NORTH,mb);                    //setting panel(menubar) mb to north of frame
+ 	     frame.getContentPane().add(BorderLayout.NORTH,mb);                    //setting panel(menubar) mb to north of frame
          a1.add(j1);                                                           //adding contents in flow to panel a1
-	 a1.add(t);
-	 a1.add(bs); 
+	     a1.add(t);
+	     a1.add(bs); 
          a1.add(tp);																																																																																																																																			//myshare v1.0 beta developed dby arfan shaikh 15ce13
          a1.add(tq);
          a1.add(j2);  
@@ -61,7 +61,7 @@ public class myshare
          tr.setText("Click to select file");								                  //default text in field tr
          adrs.setText("Enter ip address"); 
          JPanel panel = new JPanel();                                         //new panel
-	 JLabel label = new JLabel("Select :");                               //label 5
+	     JLabel label = new JLabel("Select :");                               //label 5
          JButton snd = new JButton("send");                                   //send button
          JButton rcv = new JButton("receive");                                //receive button
          System.out.println("Myshare v1.0 beta - Project By Arfan Shaikh (shaikharfan7@gmail.com)");
