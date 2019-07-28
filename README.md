@@ -29,7 +29,7 @@ java myshare
 
 To send files, click on source button and select destination path of the source file and click send.
 
-To receive, click on destination button and select location and give the file name (with extension) and make sure to set ip address of the sender  (Server).
+To receive, click on destination button and select location and give the file name (with extension) and make sure to set IPv4 address of the sender  (Server).
 
 ## Contributing
 
