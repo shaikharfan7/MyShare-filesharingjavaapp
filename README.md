@@ -25,6 +25,10 @@ To run alternatively using command line :
 java myshare
 ```
 
+OR just download and double click on "MyShare.jar" to execute the program. 
+
+NOTE : To get IP address of the sender use ipconfig for windows based computers and ifconfig for linux based computers (ON SENDERS COMPUTER).
+
 ## Usage
 
 To send files, click on source button and select destination path of the source file and click send.
