@@ -1,6 +1,6 @@
 # MyShare - File Transfer
 
-MyShare is a cross platform file sharing app developed in Java for Linux and Windows personal computers. This project was developed by 
+MyShare is a cross platform peer-to-peer file sharing app developed in Java for Linux and Windows personal computers. This project was developed by 
 [Arfan Shaikh](https://github.com/shaikharfan7/) in 2017 and lacks in certain areas such as UI and large file transfers.
 ## Installation
 #### Requirements
